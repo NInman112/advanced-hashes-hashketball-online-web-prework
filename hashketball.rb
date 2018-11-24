@@ -184,8 +184,8 @@ def big_shoe_rebounds
     data[:players].each do |player_name, stats|
       if stats[:shoe] > shoesize
         shoesize = stats[:shoe]
-        binding.pry
       end
+              binding.pry
     end
   end 
 end
