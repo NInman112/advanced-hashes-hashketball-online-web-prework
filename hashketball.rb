@@ -161,11 +161,12 @@ def player_numbers(name)
     if data[:team_name] == name
       data[:players].each do |player, stats|
         numbers << stats[:number]
+        return numbers
        # binding.pry
       end
     end
   end
-  numbers
+  #numbers
 end
 
 def player_stats(name)
