@@ -185,7 +185,8 @@ def big_shoe_rebounds
       if stats[:shoe] > shoesize
         shoesize = stats[:shoe]
       end
-              binding.pry
     end
   end 
+        binding.pry
+
 end
