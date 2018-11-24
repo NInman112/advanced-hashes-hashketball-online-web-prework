@@ -182,7 +182,7 @@ def big_shoe_rebounds
   shoesize = 0
   game_hash.each do |team, data|
     data[:players].each do |player_name, stats|
-      shoesize = stats[:shoe]
+      shoesize = stats.key[:shoe]
       binding.pry
     end
   end 
